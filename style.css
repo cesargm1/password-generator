@@ -1,0 +1,41 @@
+:root{
+    --body-bg-color: rgb(82, 79, 85);
+    --man-bg-color: rgb(15,69,125);
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    min-height: 0;
+}
+
+body{
+    background-color: var(--body-bg-color);
+    display: flex;
+    min-height: 100dvh;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.2rem;
+    background-color:var(--man-bg-color);
+    max-width: 700px;
+    min-height: 200px;
+    padding: 1em;
+}
+
+
+input[type = 'password']{
+    width: 100%;
+}
+
+.eye-container{
+    display: flex;
+    justify-content: flex-end;
+}
