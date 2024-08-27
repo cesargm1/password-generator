@@ -1,0 +1,59 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 1em;
+  background-color: #264e6a;
+  padding: 1em;
+}
+.container__h1 {
+  color: rgb(254, 250, 250);
+}
+
+.wrap {
+  max-width: 100%;
+  border: 1px solid black;
+  background-color: white;
+  display: flex;
+  padding: 1em;
+}
+.wrap__input {
+  border: 0;
+  outline: none;
+  flex: 1;
+}
+.wrap__svg {
+  cursor: pointer;
+}
+
+label {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  color: rgb(254, 250, 250);
+}
+
+.generate__password {
+  border: none;
+  background-color: none;
+  background-color: transparent;
+  border: 3px solid black;
+  padding: 1em;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  min-height: 100dvh;
+  background-color: #e4efe9;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/*# sourceMappingURL=style.css.map */

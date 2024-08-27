@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>generador de contraseñas</title>
+		<link rel="stylesheet" href="/public/css/style.css" />
+	</head>
+	<body>
+		<section class="container">
+			<h1 class="container__h1">Generador de contraseñas</h1>
+
+			<div class="wrap">
+				<input class="wrap__input" type="text" readonly />
+				<img class="wrap__svg" src="/public/svg/eye.svg" alt="eye" />
+			</div>
+
+			<label class="label">
+				añadir simbolos
+				<input class="label__input" type="checkbox" />
+			</label>
+
+			<label class="label">
+				añadir numeros
+				<input class="label__input" type="checkbox" />
+			</label>
+
+			<label class="label">
+				añadir caraacteres
+				<input class="label__input" type="checkbox" />
+			</label>
+			<button class="generate__password">generar contraseña</button>
+		</section>
+	</body>
+</html>

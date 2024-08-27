@@ -1,0 +1,47 @@
+@use "_variables";
+
+.container {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	gap: 1em;
+	background-color: variables.$main-color;
+	padding: 1em;
+
+	&__h1 {
+		color: variables.$color-text;
+	}
+}
+
+.wrap {
+	max-width: 100%;
+	border: 1px solid black;
+	background-color: white;
+	display: flex;
+	padding: 1em;
+
+	&__input {
+		border: 0;
+		outline: none;
+		flex: 1;
+	}
+
+	&__svg {
+		cursor: pointer;
+	}
+}
+
+label {
+	display: flex;
+	justify-content: center;
+	gap: 1em;
+	color: variables.$color-text;
+}
+
+.generate__password {
+	border: none;
+	background-color: none;
+	background-color: transparent;
+	border: 3px solid black;
+	padding: 1em;
+}
