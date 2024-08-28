@@ -11,25 +11,28 @@
 			<h1 class="container__h1">Generador de contraseñas</h1>
 
 			<div class="wrap">
-				<input class="wrap__input" type="text" readonly />
-				<img class="wrap__svg" src="/public/svg/eye.svg" alt="eye" />
+				<label class="wrap__label">
+					<input class="wrap__input" type="text" readonly />
+					<img class="wrap__svg" src="/public/svg/eye.svg" alt="eye" />
+				</label>
 			</div>
 
 			<label class="label">
 				añadir simbolos
-				<input class="label__input" type="checkbox" />
+				<input class="label__input" type="checkbox" name="symbols" />
 			</label>
 
 			<label class="label">
 				añadir numeros
-				<input class="label__input" type="checkbox" />
+				<input class="label__input" type="checkbox" name="numbers" />
 			</label>
 
 			<label class="label">
 				añadir caraacteres
-				<input class="label__input" type="checkbox" />
+				<input class="label__input" type="checkbox" name="characters" />
 			</label>
 			<button class="generate__password">generar contraseña</button>
 		</section>
+		<script src="/index.js"></script>
 	</body>
 </html>
