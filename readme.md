@@ -58,7 +58,11 @@ console.log(generateLetters());
 
 5. Generamos una letra aleatoria con la constante **randomLetter** obtendra la letra accediendo a la posicion del indice que tenga dicha letra
 
-6. por ultimo a la variable result le asignamos el contenido de randomLetter gracias a += que es una abreviatura de
+6. por ultimo a la variable result le asignamos el contenido de randomLetter con el operador += que sirve para abreviar la concatenacion en js si no tendramos que poner esto
+
+```js
+const allResult = result + randomLetter;
+```
 
 7. hacemos un return de result
 
